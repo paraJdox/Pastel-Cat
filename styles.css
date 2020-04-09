@@ -246,6 +246,15 @@ body {
   padding-bottom: 80px;
 }
 
+.cat-gallery-section .homecards-section img {
+  border-radius: 20px;
+  padding: 0;
+}
+
+.cat-gallery-section .homecards-section h3 {
+  padding-top: 20px;
+}
+
 .cat-gallery {
   padding-bottom: 20px;
 }
@@ -281,6 +290,7 @@ body {
 .cat-images img {
   transition: all 0.3s ease-in-out;
   min-height: 255px;
+  border-radius: 25px;
 }
 
 .cat-images img:hover {
@@ -389,6 +399,8 @@ body {
 .contact-section {
   background: #edbfe3;
   padding-bottom: 30px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
 }
 
 .contact-section .contact {
@@ -423,8 +435,12 @@ body {
 
 .contact-section .contact .numbers {
   display: flex;
-  justify-content: space-between;
-  padding: 0 30px;
+  justify-content: center;
+  margin: 0 30px;
+}
+
+.contact-section .contact .numbers .phone {
+  padding-right: 15px;
 }
 
 /* Footer */
@@ -477,8 +493,8 @@ footer p {
     padding-bottom: 50px;
   }
 
-  .contact-section .contact .numbers {
-    padding: 0 69px;
+  .contact-section .contact .numbers .phone {
+    padding-right: 25px;
   }
 }
 
@@ -539,10 +555,6 @@ footer p {
   .profile-section .person img {
     width: 44%;
     margin: 0 auto;
-  }
-
-  .contact-section .contact .numbers {
-    padding: 0 130px;
   }
 
   .cat-gallery-section {
@@ -627,10 +639,6 @@ footer p {
     padding-bottom: 45px;
   }
 
-  .contact-section .contact .numbers {
-    padding: 0 165px;
-  }
-
   .about-section {
     padding: 0 64px 100px 64px;
   }
@@ -675,6 +683,14 @@ footer p {
     width: 100%;
     padding-bottom: 20px;
     max-height: 180px;
+  }
+
+  .cat-gallery-section .homecards-section img {
+    border-radius: 10px;
+  }
+
+  .cat-images img {
+    border-radius: 8px;
   }
 
   .about-section h2 {
@@ -730,10 +746,6 @@ footer p {
 
   .profile-section .person span {
     font-size: 1.2rem;
-  }
-
-  .contact-section .contact .numbers {
-    padding: 0 230px;
   }
 
   .long-img {
@@ -812,10 +824,6 @@ footer p {
   .cat-images {
     padding: 0 40px;
   }
-
-  .contact-section .contact .numbers {
-    padding: 0 250px;
-  }
 }
 
 @media (min-width: 800px) {
@@ -843,10 +851,6 @@ footer p {
 
   .profile-section {
     margin: 0 30px 20px 30px;
-  }
-
-  .contact-section .contact .numbers {
-    padding: 0 280px;
   }
 
   .about-section {
@@ -892,19 +896,11 @@ footer p {
       "img-five img-six long-img long-img-one"
       "img-seven img-eight long-img long-img-one";
   }
-
-  .contact-section .contact .numbers {
-    padding: 0 320px;
-  }
 }
 
 @media (min-width: 950px) {
   nav .main-menu li a {
     letter-spacing: 2px;
-  }
-
-  .contact-section .contact .numbers {
-    padding: 0 350px;
   }
 }
 
@@ -953,10 +949,6 @@ footer p {
   .about-section .select {
     transform: translateX(38px);
   }
-
-  .contact-section .contact .numbers {
-    padding: 0 375px;
-  }
 }
 
 @media (min-width: 1100px) {
@@ -981,10 +973,6 @@ footer p {
 
   .profile-section {
     padding-bottom: 120px;
-  }
-
-  .contact-section .contact .numbers {
-    padding: 0 420px;
   }
 
   .showcase-cat {
