@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   width: 100%;
 }
@@ -222,6 +226,7 @@ body {
   letter-spacing: 0.3rem;
   font-size: 1.8rem;
   padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 .about-section p {
@@ -244,6 +249,7 @@ body {
 
 .cat-gallery-section {
   padding-bottom: 80px;
+  padding-top: 25px;
 }
 
 .cat-gallery-section .homecards-section img {
@@ -360,6 +366,7 @@ body {
 
 .profile-section {
   margin: 0 20px;
+  padding-top: 25px;
 }
 
 .profile-section h2 {
