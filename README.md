@@ -1,5 +1,5 @@
 # Pastel-Cat
-A static website created with custom CSS: grid, flexbox, and media queries.
+A static website created with custom CSS: grid, flexbox, and media queries. <a href="https://parajdox1.github.io/Pastel-Cat/">Check the Website Live!</a>
 
 <br/>
 
